@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <style>
+        body { font-family: sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 350px; }
+        h2 { text-align: center; color: #333; margin-top: 0; }
+        .input-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; color: #666; }
+        input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+        button { width: 100%; padding: 12px; background-color: #007bff; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; transition: 0.2s; }
+        button:hover { background-color: #0056b3; }
+        #result { margin-top: 20px; padding: 15px; background-color: #e9f7ef; border-radius: 6px; display: none; }
+        .stat { display: flex; justify-content: space-between; margin-bottom: 5px; }
+        .stat strong { color: #333; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Grade Calculator</h2>
+        
+        <div class="input-group">
+            <label>Physics</label>
+            <input type="number" id="sub1" placeholder="0-100">
+        </div>
+        <div class="input-group">
+            <label>Chemistry</label>
+            <input type="number" id="sub2" placeholder="0-100">
+        </div>
+        <div class="input-group">
+            <label>Maths</label>
+            <input type="number" id="sub3" placeholder="0-100">
+        </div>
+        <div class="input-group">
+            <label>English</label>
+            <input type="number" id="sub4" placeholder="0-100">
+        </div>
+
+        <button onclick="calculateMarks()">Calculate Result</button>
+
+        <div id="result">
+            <div class="stat"><span>Total:</span> <strong id="totalDisplay">0</strong></div>
+            <div class="stat"><span>Average:</span> <strong id="avgDisplay">0%</strong></div>
+            <div class="stat"><span>Grade:</span> <strong id="gradeDisplay">F</strong></div>
+        </div>
+    </div>
+
+    <script>
+        function calculateMarks() {
+            // 1. Get values (default to 0 if empty)
+            let s1 = parseFloat(document.getElementById('sub1').value) || 0;
+            let s2 = parseFloat(document.getElementById('sub2').value) || 0;
+            let s3 = parseFloat(document.getElementById('sub3').value) || 0;
+            let s4 = parseFloat(document.getElementById('sub4').value) || 0;
+
+            // 2. Calculate Logic
+            let total = s1 + s2 + s3 + s4;
+            let avg = total / 4;
+            let grade = "";
+
+            if (avg >= 90) grade = "A";
+            else if (avg >= 80) grade = "B";
+            else if (avg >= 70) grade = "C";
+            else if (avg >= 50) grade = "D";
+            else grade = "F";
+
+            // 3. Display Results
+            document.getElementById('totalDisplay').innerText = total + " / 400";
+            document.getElementById('avgDisplay').innerText = avg.toFixed(2) + "%";
+            document.getElementById('gradeDisplay').innerText = grade;
+            
+            // Show the result box
+            document.getElementById('result').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
