@@ -42,447 +42,573 @@ pdf.add_page()
 pdf.set_title("MSc CA Assessment - Research Methodology")
 
 content_data = """
-# MSC-CA Semester 1 - Research Methodology Internal Assessment
-## Complete Question Bank with Answer Keys
-**Course:** Master of Science in Computer Applications  
-**Semester:** 1 (July 2025)  
-**Subject:** Research Methodology & Introduction to Research (RM-IA)  
-**Total Questions:** 30  
-**Date:** December 11, 2025
+# MSc Computer Applications - Cyber Security
+## Internal Assessment Questions & Answers
+**Course Code:** MSC-CA-JULY-2025-SEM-1-CS-IA  
+**Total Questions:** 25
 
 ---
 
-## Questions with Answers
+## Question 1: Threat Modeling Approaches
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-05
 
-### Question 1
-**What is the first step in the research process?**
+**Question:** Threat modeling approaches are —
 
-- Defining Problem or Formulating a research question ✓ **CORRECT**
-- Literature review
-- Data collection
-- Data analysis
+**Options:**
+- STRIDE ✓ (CORRECT)
+- PASTA ✓ (CORRECT)
+- DREAD ✗
+- RAID ✗
 
-**Explanation:** The foundation of any research begins with identifying and clearly defining the problem or research question. This guides all subsequent research activities.
+**Correct Answers:** STRIDE, PASTA
 
----
-
-### Question 2
-**What type of research design involves the random assignment of participants to different conditions and the manipulation of one or more independent variables?**
-
-- Descriptive research
-- Experimental research ✓ **CORRECT**
-- Correlational research
-- Qualitative research
-
-**Explanation:** Experimental research is characterized by controlled manipulation of variables and random assignment of participants to ensure validity and establish cause-and-effect relationships.
+**Explanation:** Both STRIDE and PASTA are established threat modeling methodologies. STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) and PASTA (Process for Attack Simulation and Threat Analysis) are industry-standard approaches for identifying and analyzing threats in system design.
 
 ---
 
-### Question 3
-**Which type of research is primarily exploratory and is used to gain an understanding of underlying reasons, opinions, and motivations?**
+## Question 2: DDoS Attack Type
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-19
 
-- Descriptive research
-- Correlational research
-- Experimental research
-- Qualitative research ✓ **CORRECT**
+**Question:** Which attack floods servers with traffic?
 
-**Explanation:** Qualitative research focuses on exploring underlying motivations, opinions, and reasons—ideal for understanding the "why" behind phenomena rather than quantifying them.
+**Options:**
+- Social engineering ✗
+- DDoS ✓ (CORRECT)
+- MITM ✗
+- Trojan ✗
 
----
+**Correct Answer:** DDoS (Distributed Denial of Service)
 
-### Question 4
-**After collecting data, the next step in the research process is usually:**
-
-- Formulating a hypothesis
-- Data analysis ✓ **CORRECT**
-- Defining the problem
-- Conducting a literature review
-
-**Explanation:** Once data is collected, it must be analyzed to extract meaningful patterns and insights. Data analysis transforms raw data into useful information.
+**Explanation:** DDoS attacks overwhelm servers and networks by flooding them with massive amounts of traffic from multiple sources, making the service unavailable to legitimate users.
 
 ---
 
-### Question 5
-**What is the primary purpose of a literature review?**
+## Question 3: CIA Triad Definition
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-02
 
-- Summarize and critically evaluate previous research ✓ **CORRECT**
-- List all studies on a topic without evaluation
-- Replace the need for conducting your own research
-- Limit the scope of your research question
+**Question:** CIA Triad stands for __________
 
-**Explanation:** A literature review synthesizes existing knowledge, identifies gaps, and critically evaluates previous findings to provide context for new research.
+**Options:**
+- Control, Integrity, Access ✗
+- Confidentiality, Integrity, Availability ✓ (CORRECT)
+- Confidential, Internal, Access ✗
+- Cyber, Internet, Attack ✗
 
----
+**Correct Answer:** Confidentiality, Integrity, Availability
 
-### Question 6
-**Which of the following is NOT a recognized type of research?**
-
-- Basic research
-- Applied research
-- Quantitative research
-- Literary research ✓ **CORRECT**
-
-**Explanation:** While "literary research" involves studying literature as a subject, it's not classified as a formal research type in research methodology. The recognized types are basic, applied, quantitative, and qualitative.
+**Explanation:** The CIA Triad is the fundamental model in cybersecurity:
+- **Confidentiality:** Data accessible only to authorized persons
+- **Integrity:** Data accuracy and completeness, not modified by unauthorized persons
+- **Availability:** Systems and data accessible to authorized users when needed
 
 ---
 
-### Question 7
-**What type of research examines the relationship between two variables without manipulating them?**
+## Question 4: Hackivism Definition
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-24
 
-- Experimental research
-- Descriptive research
-- Correlational research ✓ **CORRECT**
-- Qualitative research
+**Question:** Hacktivism best described as —
 
-**Explanation:** Correlational research identifies relationships and associations between variables without introducing any experimental manipulation or control.
+**Options:**
+- Cyber activism ✓ (CORRECT)
+- Selling data ✗
+- Protecting systems ✗
+- Development ✗
 
----
+**Correct Answer:** Cyber activism
 
-### Question 8
-**The process of grouping variables in a literature review can help in:**
-
-- Refining the research questions or hypotheses ✓ **CORRECT**
-- Making the review more subjective
-- Avoiding critical analysis of the literature
-- Limiting the scope to only one variable
-
-**Explanation:** Grouping variables helps identify patterns and themes across studies, leading to refined research questions and clearer hypotheses.
+**Explanation:** Hacktivism combines "hacking" and "activism" to describe the use of hacking techniques for political or social purposes, typically to promote social change or protest against organizations.
 
 ---
 
-### Question 9
-**After collecting data, the next step in the research process is usually:**
+## Question 5: Critical Infrastructure
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-11
 
-- Formulating a hypothesis
-- Data analysis ✓ **CORRECT**
-- Defining the problem
-- Conducting a literature review
+**Question:** Critical infrastructure includes __________
 
-**Explanation:** Data analysis is the logical next step after collection, where researchers examine and interpret the data to draw conclusions.
+**Options:**
+- Social media apps ✗
+- Power & water systems ✓ (CORRECT)
+- Gaming servers ✗
+- Phones ✗
 
----
+**Correct Answer:** Power & water systems
 
-### Question 10
-**Which characteristic is typical of quantitative research?**
-
-- Focus on personal experiences
-- Uses numerical data and statistical analysis ✓ **CORRECT**
-- Emphasizes understanding context and meanings
-- Relies on observational methods without measurement
-
-**Explanation:** Quantitative research is defined by its use of numerical data, measurements, and statistical analysis to test hypotheses and establish relationships.
+**Explanation:** Critical infrastructure refers to essential systems vital to national security and public health, including power grids, water treatment facilities, transportation networks, and communication systems.
 
 ---
 
-### Question 11
-**What is the primary purpose of grouping variables in a literature review?**
+## Question 6: CI Attacks and Critical Services
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-18
 
-- To simplify the writing process
-- To identify patterns and themes across studies ✓ **CORRECT**
-- To reduce the number of sources reviewed
-- To make the review more objective
+**Question:** CI attacks can disrupt power/water.
 
-**Explanation:** Grouping variables reveals patterns, themes, and gaps across literature, facilitating synthesis and comparison of findings.
+**Options:**
+- True ✓ (CORRECT)
+- False ✗
 
----
+**Correct Answer:** True
 
-### Question 12
-**Which of the following is a key difference between a systematic literature review and a traditional review?**
-
-- Systematic reviews use rigorous and replicable methodology ✓ **CORRECT**
-- Systematic reviews are faster to complete
-- Systematic reviews focus only on qualitative data
-- Traditional reviews are more objective
-
-**Explanation:** Systematic reviews follow explicit, predetermined protocols and are exhaustive in scope, whereas traditional reviews are more narrative and subjective.
+**Explanation:** Attacks on critical infrastructure can cause widespread disruption. For example, compromising SCADA systems or grid control systems can lead to power outages or water supply disruptions.
 
 ---
 
-### Question 13
-**Which type of literature review would typically require the registration of a review protocol?**
+## Question 7: Vulnerability Definition
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-04
 
-- Traditional literature review
-- Systematic literature review ✓ **CORRECT**
-- Critical literature review
-- None of the above
+**Question:** A vulnerability is __________
 
-**Explanation:** Systematic literature reviews require pre-registration of the protocol (PROSPERO, OSF) to ensure transparency and reduce bias.
+**Options:**
+- A possible attack ✗
+- A weakness in system ✓ (CORRECT)
+- An attacker ✗
+- Phishing mail ✗
 
----
+**Correct Answer:** A weakness in system
 
-### Question 14
-**A traditional literature review typically:**
-
-- Uses explicit inclusion/exclusion criteria
-- Often lacks explicit inclusion/exclusion criteria ✓ **CORRECT**
-- Follows a strict pre-registered protocol
-- Requires meta-analysis
-
-**Explanation:** Traditional reviews are narrative syntheses without pre-specified criteria, unlike systematic reviews which have explicit protocols.
+**Explanation:** A vulnerability is a weakness or flaw in a system's security that can be exploited by attackers to gain unauthorized access or cause harm.
 
 ---
 
-### Question 15
-**In which type of literature review is the subjective interpretation of the reviewer most apparent?**
+## Question 8: Common Security Goals
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-01
 
-- Systematic literature review
-- Traditional literature review ✓ **CORRECT**
-- Critical literature review
-- Meta-analysis
+**Question:** Which of the following is NOT a common security goal?
 
-**Explanation:** Traditional literature reviews allow for more subjective selection and interpretation compared to systematic reviews, which use standardized procedures.
+**Options:**
+- Confidentiality ✗
+- Integrity ✗
+- Availability ✗
+- Profitability ✓ (CORRECT)
 
----
+**Correct Answer:** Profitability
 
-### Question 16
-**What is primary data?**
-
-- Data that is collected by someone else and used in your research
-- Data collected firsthand by the researcher for a specific purpose ✓ **CORRECT**
-- Data that is found in books and articles
-- Data that is outdated and no longer useful
-
-**Explanation:** Primary data is original data collected directly by the researcher for their specific research objectives, ensuring relevance and control.
+**Explanation:** The three common security goals are Confidentiality, Integrity, and Availability (CIA Triad). Profitability is a business objective, not a security goal.
 
 ---
 
-### Question 17
-**The final step in the research process, where findings are communicated to others, is called:**
+## Question 9: Availability Goal
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-15
 
-- Data collection
-- Data analysis
-- Literature review
-- Reporting and publishing results ✓ **CORRECT**
+**Question:** Goal of availability __________
 
-**Explanation:** Reporting and publishing results complete the research cycle by sharing findings with the academic and professional community.
+**Options:**
+- Prevent alteration ✗
+- Ensure accessibility ✓ (CORRECT)
+- Encrypt data ✗
+- Restrict access ✗
 
----
+**Correct Answer:** Ensure accessibility
 
-### Question 18
-**Which approach is typically emphasized in a critical literature review?**
-
-- A descriptive summary of studies
-- An unbiased and rigorous search strategy
-- A critical evaluation and synthesis of the literature ✓ **CORRECT**
-- A focus on providing a comprehensive list of all studies
-
-**Explanation:** Critical literature reviews emphasize critical evaluation and synthesis of findings, moving beyond mere description to interpret and evaluate quality.
+**Explanation:** Availability ensures that systems, data, and services are accessible to authorized users whenever needed, preventing unauthorized disruptions.
 
 ---
 
-### Question 19
-**What type of research focuses on understanding fundamental aspects of phenomena without a specific application in mind?**
+## Question 10: Botnets Primary Use
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-06
 
-- Basic research ✓ **CORRECT**
-- Applied research
-- Descriptive research
-- Exploratory research
+**Question:** Botnets are primarily used for —
 
-**Explanation:** Basic research aims to advance fundamental knowledge and understanding without immediate practical application, emphasizing theoretical understanding.
+**Options:**
+- Updates ✗
+- Coordinated attacks ✓ (CORRECT)
+- Backups ✗
+- Authentication ✗
 
----
+**Correct Answer:** Coordinated attacks
 
-### Question 20
-**Which of the following is common to both systematic and critical literature reviews?**
-
-- They both involve a rigorous and systematic search of the literature ✓ **CORRECT**
-- They both avoid critical evaluation of the studies
-- They both aim to provide a narrative summary of the literature
-- They both allow for subjective interpretation without strict criteria
-
-**Explanation:** Both systematic and critical reviews employ rigorous methodologies, though systematic reviews are more standardized while critical reviews emphasize evaluation.
+**Explanation:** Botnets are networks of compromised computers controlled by attackers to perform coordinated malicious activities like DDoS attacks, spam distribution, and large-scale cyber attacks.
 
 ---
 
-### Question 21
-**Which of the following is a key feature of a systematic literature review?**
+## Question 11: Attack Motivations
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-21
 
-- It aims to offer a general overview of the literature
-- It includes an exhaustive and comprehensive search strategy ✓ **CORRECT**
-- It allows for selective inclusion of studies based on the author's preference
-- It focuses on presenting qualitative data only
+**Question:** Motivations for attacks —
 
-**Explanation:** Systematic reviews are characterized by comprehensive, exhaustive search strategies with explicit inclusion/exclusion criteria to minimize bias.
+**Options:**
+- Financial ✓ (CORRECT)
+- Political ✓ (CORRECT)
+- Revenge ✓ (CORRECT)
+- System updates ✗
 
----
+**Correct Answers:** Financial, Political, Revenge
 
-### Question 22
-**In which phase of the research process do researchers develop instruments or tools for data collection?**
-
-- Research design ✓ **CORRECT**
-- Literature review
-- Formulating the problem
-- Data analysis
-
-**Explanation:** During the research design phase, researchers develop questionnaires, interview guides, observation protocols, or other measurement instruments.
+**Explanation:** Attackers are motivated by various factors:
+- **Financial:** Stealing money, data, or resources for profit
+- **Political:** Advancing political agendas or ideologies
+- **Revenge:** Personal grievances or retaliation
+- System updates is a maintenance activity, not an attack motivation
 
 ---
 
-### Question 23
-**In which type of literature review is the subjective interpretation of the reviewer most apparent?**
+## Question 12: Athens Affair Attack Type
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-09
 
-- Traditional literature review ✓ **CORRECT**
-- Systematic literature review
-- Critical literature review
-- Meta-analysis
+**Question:** The Athens Affair involved __________
 
-**Explanation:** Traditional reviews rely heavily on the reviewer's subjective judgment in selecting and interpreting sources, unlike systematic approaches.
+**Options:**
+- Banking fraud ✗
+- Telecom wiretapping ✓ (CORRECT)
+- Crypto theft ✗
+- Malware infection ✗
 
----
+**Correct Answer:** Telecom wiretapping
 
-### Question 24
-**Which type of research is designed to systematically describe a situation, problem, phenomenon, or population?**
-
-- Exploratory research
-- Descriptive research ✓ **CORRECT**
-- Experimental research
-- Longitudinal research
-
-**Explanation:** Descriptive research systematically documents characteristics, conditions, and phenomena, providing detailed descriptions without manipulation.
+**Explanation:** The Athens Affair (2004-2005) involved illegal wiretapping of high-ranking Greek officials' mobile phones through the Vodafone Greece network, exploiting security vulnerabilities in the telecommunications infrastructure.
 
 ---
 
-### Question 25
-**Which type of literature review is most likely to include a meta-analysis?**
+## Question 13: Athens Affair Discovery
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-23
 
-- Traditional literature review
-- Systematic literature review ✓ **CORRECT**
-- Critical literature review
-- None of the above
+**Question:** Cyber espionage is motivated by __________
 
-**Explanation:** Systematic literature reviews often include meta-analysis (quantitative synthesis of results) when data from studies are comparable.
+**Options:**
+- Advertising ✗
+- Intelligence gathering ✓ (CORRECT)
+- Entertainment ✗
+- Education ✗
 
----
+**Correct Answer:** Intelligence gathering
 
-### Question 26
-**Empirical research is primarily based on:**
-
-- Hypothesis
-- Theory
-- Observation and experimentation ✓ **CORRECT**
-- Literature review
-
-**Explanation:** Empirical research relies on direct observation, experimentation, and actual data collection rather than theory or literature alone.
+**Explanation:** Cyber espionage involves unauthorized access to sensitive information for intelligence purposes, conducted by nation-states, organizations, or groups to gain competitive or strategic advantages.
 
 ---
 
-### Question 27
-**Which type of research establishes a cause-and-effect relationship between variables?**
+## Question 14: Espionage Signs
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-25
 
-- Correlational research
-- Descriptive research
-- Experimental research ✓ **CORRECT**
-- Exploratory research
+**Question:** Signs of espionage —
 
-**Explanation:** Only experimental research, with controlled manipulation of variables and random assignment, can establish true cause-and-effect relationships.
+**Options:**
+- Data exfiltration ✓ (CORRECT)
+- Zero-days ✗
+- Long-term infiltration ✓ (CORRECT)
+- Weak passwords ✗
 
----
+**Correct Answers:** Data exfiltration, Long-term infiltration
 
-### Question 28
-**Which type of research aims to solve specific, practical problems?**
-
-- Basic research
-- Applied research ✓ **CORRECT**
-- Quantitative research
-- Qualitative research
-
-**Explanation:** Applied research targets practical problems and aims for solutions with immediate application value in real-world contexts.
+**Explanation:** Indicators of espionage activities include:
+- **Data exfiltration:** Unauthorized extraction and transfer of sensitive data
+- **Long-term infiltration:** Persistent presence in systems over extended periods for continuous intelligence gathering
 
 ---
 
-### Question 29
-**Which type of research establishes a cause-and-effect relationship between variables?**
+## Question 15: Estonia Attack Targets (2007)
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-22
 
-- Correlational research
-- Descriptive research
-- Experimental research ✓ **CORRECT**
-- Exploratory research
+**Question:** 2007 Estonia attack targeted _______ sites.
 
-**Explanation:** Experimental research, through controlled variable manipulation and random assignment, can establish cause-and-effect relationships.
+**Options:**
+- Banking ✗
+- Education Sector ✗
+- Healthcare ✗
+- None of the Mentioned ✓ (CORRECT)
 
----
+**Correct Answer:** None of the Mentioned
 
-### Question 30
-**What is the primary focus of a traditional literature review?**
-
-- To provide a comprehensive summary of the available literature on a specific topic ✓ **CORRECT**
-- To critically evaluate and synthesize existing research on a topic
-- To systematically search for and appraise research evidence
-- To conduct a meta-analysis of quantitative studies
-
-**Explanation:** Traditional literature reviews aim to provide a narrative summary of existing literature, highlighting key findings and gaps in knowledge.
+**Explanation:** The 2007 Estonia cyberattacks (attributed to Russian actors) primarily targeted government, media, and financial sectors. The attack was broader and not limited to single sector categories listed.
 
 ---
 
-## Summary of Answer Distribution
+## Question 16: Threat Actor Definition
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-16
 
-| Research Type | Count | Key Characteristics |
-|---|---|---|
-| **Experimental Research** | 4 | Random assignment, variable manipulation, cause-and-effect |
-| **Qualitative Research** | 2 | Understanding reasons, opinions, motivations, context |
-| **Descriptive Research** | 2 | Systematic description, documentation, observation |
-| **Applied Research** | 2 | Practical problems, real-world solutions |
-| **Literature Review Types** | 10 | Systematic, Traditional, Critical approaches |
-| **Data & Methodology** | 5 | Primary data, data analysis, research design |
-| **Research Process** | 3 | Steps and stages in research |
+**Question:** Threat actor means —
 
----
+**Options:**
+- System patch ✗
+- Person attacking ✓ (CORRECT)
+- Firewall ✗
+- Antivirus ✗
 
-## Key Concepts Reference
+**Correct Answer:** Person attacking
 
-### Research Types by Purpose
-- **Basic Research:** Fundamental understanding without specific application
-- **Applied Research:** Solving practical, specific problems
-- **Quantitative:** Numerical data, statistical analysis
-- **Qualitative:** Meanings, experiences, context
-
-### Research Designs
-- **Experimental:** Manipulation + Random Assignment + Control
-- **Correlational:** Relationship identification without manipulation
-- **Descriptive:** Systematic observation and documentation
-- **Exploratory:** Initial investigation, understanding
-
-### Literature Review Approaches
-| Aspect | Traditional | Systematic | Critical |
-|---|---|---|---|
-| **Protocol Registration** | No | Yes | No |
-| **Search Strategy** | Narrative | Exhaustive | Rigorous |
-| **Inclusion Criteria** | Implicit | Explicit | Implicit but justified |
-| **Subjectivity** | High | Low | Moderate-High |
-| **Meta-Analysis** | Rare | Common | Possible |
-
-### Research Process Sequence
-1. **Define Problem** → Formulate research question
-2. **Literature Review** → Understand existing knowledge
-3. **Hypothesis Formulation** → Predict relationships
-4. **Research Design** → Plan methodology & develop instruments
-5. **Data Collection** → Gather primary or secondary data
-6. **Data Analysis** → Extract meaningful insights
-7. **Reporting & Publishing** → Share findings with community
+**Explanation:** A threat actor is any individual or entity that conducts or attempts cyberattacks, including hackers, criminal organizations, nation-states, insiders, and hacker groups.
 
 ---
 
-## Important Notes for MSC-CA Students
+## Question 17: Botnet Scale
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-14
 
-This assessment tests foundational understanding of research methodology essential for:
-- Thesis/project proposal development
-- Literature review writing
-- Research design selection
-- Proper data collection and analysis
-- Academic writing and publication
+**Question:** Botnets can have millions of devices.
 
-**Focus Areas for Exam Success:**
-- Distinguish between research types (basic vs. applied, quantitative vs. qualitative)
-- Understand literature review methodologies
-- Know research process sequence
-- Recognize data types and collection methods
-- Understand cause-and-effect vs. correlation vs. description
+**Options:**
+- True ✓ (CORRECT)
+- False ✗
+
+**Correct Answer:** True
+
+**Explanation:** Modern botnets can compromise millions of devices globally. For example, Mirai botnet infected over 600,000 devices, demonstrating the massive scale possible in coordinated cyberattacks.
 
 ---
 
-**Document prepared:** December 11, 2025  
-**All 30 Questions Covered**  
-**Ready for MSC-CA Exam Preparation**
+## Question 18: Threat Modeling Benefits
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-03
+
+**Question:** Threat modeling helps identify attackers and capabilities.
+
+**Options:**
+- True ✓ (CORRECT)
+- False ✗
+
+**Correct Answer:** True
+
+**Explanation:** Threat modeling is a systematic process that identifies potential attackers (threat actors), their capabilities, motivations, and methods of attack on a system, enabling better security design and defense strategies.
+
+---
+
+## Question 19: Athens Affair Discovery Method
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-23
+
+**Question:** Athens Affair found due to unusual logs.
+
+**Options:**
+- True ✓ (CORRECT)
+- False ✗
+
+**Correct Answer:** True
+
+**Explanation:** The Athens Affair was discovered when Vodafone security team detected unusual system activities and anomalous network logs indicating unauthorized access and wiretapping activities.
+
+---
+
+## Question 20: Common Cyber Threats
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-17
+
+**Question:** Common cyber threats —
+
+**Options:**
+- Malware ✓ (CORRECT)
+- Phishing ✓ (CORRECT)
+- Insider threats ✓ (CORRECT)
+- Floods ✗
+
+**Correct Answers:** Malware, Phishing, Insider threats
+
+**Explanation:**
+- **Malware:** Malicious software designed to damage or exploit systems
+- **Phishing:** Social engineering attacks via deceptive emails/messages
+- **Insider threats:** Risks from authorized users abusing access privileges
+- Floods refer to infrastructure attacks, not individual cyber threats
+
+---
+
+## Question 21: Payroll System Classification
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA-01-01 (Additional)
+
+**Question:** Payroll systems are typically classified under which infrastructure category?
+
+**Correct Answer:** Critical Infrastructure / Sensitive Business Systems
+
+**Explanation:** Payroll systems handle sensitive employee financial data and are critical for business operations, requiring protection under data security and business continuity frameworks.
+
+---
+
+## Question 22: Defense in Depth Strategy
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA (Related)
+
+**Question:** Multiple layers of security controls are part of:
+
+**Correct Answer:** Defense in Depth
+
+**Explanation:** Defense in Depth is a security strategy using multiple overlapping defenses (firewalls, intrusion detection, authentication, encryption) so that if one layer is compromised, others still provide protection.
+
+---
+
+## Question 23: Zero-Day Vulnerability
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA (Related)
+
+**Question:** A zero-day vulnerability is:
+
+**Correct Answer:** An unknown security flaw exploited before vendor awareness or patch availability
+
+**Explanation:** Zero-day exploits target vulnerabilities unknown to software vendors, making them particularly dangerous as no patches or defenses exist at the time of exploitation.
+
+---
+
+## Question 24: SCADA Systems
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA (Related)
+
+**Question:** SCADA systems are used in:
+
+**Correct Answer:** Industrial Control Systems for critical infrastructure
+
+**Explanation:** SCADA (Supervisory Control and Data Acquisition) systems monitor and control industrial processes in power plants, water treatment, manufacturing, and other critical infrastructure.
+
+---
+
+## Question 25: Social Engineering
+**Question ID:** MSC-CA-JULY-2025-SEM-1-CS-IA (Related)
+
+**Question:** Social engineering attacks primarily exploit:
+
+**Correct Answer:** Human psychology and trust
+
+**Explanation:** Social engineering attacks manipulate people into divulging confidential information or performing security-breaching actions, exploiting human psychology rather than technical vulnerabilities.
+
+---
+
+## Summary Statistics
+
+| Category | Count |
+|----------|-------|
+| Total Questions | 25 |
+| Multiple Choice | 20 |
+| True/False | 4 |
+| Multiple Select | 3 |
+| Coverage Topics | Threat Modeling, DDoS, CIA Triad, Botnets, Espionage, Critical Infrastructure, Cyber Attacks, Threat Actors |
+
+---
+
+## Key Takeaways
+
+1. **Threat Modeling:** Essential for identifying security risks early
+2. **CIA Triad:** Foundation of all security objectives
+3. **Attack Types:** Diverse methods including DDoS, phishing, malware, and espionage
+4. **Infrastructure Protection:** Critical systems require special attention
+5. **Threat Actors:** Various motivations from financial to political
+6. **Defense Strategy:** Multiple layers and continuous monitoring required
+
+---
+
+**Document Version:** 1.0  
+**Date:** December 11, 2025  
+**Course:** MSc Computer Applications - Cyber Security  
+**Institution:** Symbiosis Online University
+
+## Part 2
+
+# MSc CA - Information Security & Cybersecurity
+## Internal Assessment - Complete Q&A Guide
+
+---
+
+## SECTION 15: Multilateral Security
+**Question:** STATE True/False: Multilateral security considers all parties' interests.
+
+**Answer:** **TRUE** ✓
+
+---
+
+## SECTION 16: Information Technology Act, 2000
+**Question:** The Information Technology Act, 2000 in India primarily deals with:
+
+**Answer:** **Digital signatures, cybercrimes & electronic records** ✓
+
+---
+
+## SECTION 17: Copyright Protection
+**Question:** Copyright protects _____.
+
+**Answer:** **Expression of ideas** ✓
+
+**Explanation:** Copyright protects the original expression of ideas (creative works, software, written content, etc.), not the ideas themselves.
+
+---
+
+## SECTION 18: Software Patenting
+**Question:** Software patenting protects:
+
+**Answer:** **Novel software inventions** ✓
+
+---
+
+## SECTION 19: Security Policies
+**Question:** Security policies define _____.
+
+**Answer:** **What is allowed** ✓
+
+**Explanation:** Security policies establish rules and guidelines defining what is permitted within an organization's security framework.
+
+---
+
+## SECTION 20: Computer Misuse Legislation
+**Question:** Computer misuse legislation aims to prevent:
+
+**Answer:** **Misuse of systems** ✓
+
+---
+
+## SECTION 21: Cyber Laws
+**Question:** STATE True/False: Cyber laws regulate online activities.
+
+**Answer:** **TRUE** ✓
+
+---
+
+## SECTION 22: Privacy Control
+**Question:** Privacy ensures control over one's personal _____.
+
+**Answer:** **Data** ✓
+
+**Explanation:** Privacy is about maintaining control over personal data and preventing unauthorized access or misuse of one's information.
+
+---
+
+## SECTION 23: Data Protection
+**Question:** Data protection involves:
+
+**Answer:** **Safeguarding personal data** ✓
+
+**Explanation:** Data protection involves implementing measures and policies to secure and protect personal data from unauthorized access, breaches, and misuse.
+
+---
+
+## SECTION 24: Management of Malicious Intent
+**Question:** Management of malicious intent involves:
+
+**Answer:** **Identifying threats** ✓
+
+**Explanation:** Proper threat management requires proactive identification, detection, and analysis of security threats and malicious activities.
+
+---
+
+## SECTION 26: Network Security Focus
+**Question:** Network security focuses on:
+
+**Answer:** **Protecting data in transit** ✓
+
+**Explanation:** Network security primarily ensures the confidentiality, integrity, and availability of data as it moves across networks and communication channels.
+
+---
+
+## Summary of Key Concepts
+
+### Security Fundamentals
+- **Data Protection:** Safeguarding sensitive information from unauthorized access
+- **Privacy:** Control over personal data and information
+- **Encryption:** Method to ensure confidentiality
+
+### Legal Framework
+- **IT Act 2000:** India's primary law for digital crimes and electronic records
+- **Copyright:** Protects expression of creative ideas
+- **Patents:** Protect novel software inventions
+- **Computer Misuse Laws:** Prevent unauthorized system access
+
+### Security Practices
+- **Security Policies:** Define what is permitted (allow/deny rules)
+- **Threat Identification:** Core of malicious intent management
+- **Network Security:** Focus on data protection in transit
+- **Multilateral Security:** Considers interests of all stakeholders
+
+---
+
+## Study Tips for MSc CA
+
+1. **Understand the distinction** between ideas (not protected) and expression of ideas (protected by copyright)
+2. **Remember IT Act 2000** covers digital signatures, cybercrimes, and electronic records
+3. **Security vs Privacy:** Security is about protection; Privacy is about control
+4. **Policies define the rules** - what's allowed and what's not
+5. **Threat management** is proactive - focus on identification
+6. **Network security** protects data while it travels across networks
+
+---
+
+**Document Version:** Complete Internal Assessment Q&A Guide
+**Created:** December 26, 2025
+**Course:** MSc CA - Cybersecurity and Information Security
+**Institution:** Symbiosis Online University
 """
 
 lines = content_data.split('\n')
@@ -516,5 +642,5 @@ for line in lines:
 if buffer:
     pdf.chapter_body(buffer)
 
-pdf.output("Research-Methodology.pdf")
-print("✓ PDF generated successfully: Research-Methodology.pdf")
+pdf.output("CS-2.pdf")
+print("✓ PDF generated successfully: CS-2.pdf")

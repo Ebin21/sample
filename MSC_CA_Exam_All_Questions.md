@@ -439,3 +439,381 @@ This assessment tests foundational understanding of research methodology essenti
 **Document prepared:** December 11, 2025  
 **All 30 Questions Covered**  
 **Ready for MSC-CA Exam Preparation**
+
+
+## PART 2
+
+# MSc CA Internal Assessment - Complete Question Bank
+## July 2025 Semester 1
+
+---
+
+## Set 1 Questions and Answers
+
+### Section 1: Instrument Design Focus
+**Question:** Instrument design focuses on:
+
+**Options:**
+- Writing literature review
+- Developing data collection tools
+- Statistical modeling
+- Sampling
+
+**Correct Answer:** **Developing data collection tools**
+
+---
+
+### Section 2: Reliability Test Measures
+**Question:** A reliability test measures:
+
+**Options:**
+- Accuracy
+- Consistency of instrument
+- Validity
+- Sampling bias
+
+**Correct Answer:** **Consistency of instrument**
+
+---
+
+### Section 3: Scale Formation Components
+**Question:** Scale formation includes:
+
+**Options:**
+- Coding
+- Reliability testing
+- Item generation
+- Hypothesis writing
+
+**Correct Answer:** **Item generation**
+
+---
+
+### Section 4: Cronbach's Alpha
+**Question:** Cronbach's alpha measures ____ reliability.
+
+**Options:**
+- Internal consistency
+- Predictive
+- External
+- Temporal
+
+**Correct Answer:** **Internal consistency**
+
+---
+
+### Section 5: Intervening Variables
+**Question:** STATE True/False: Intervening variables act similar to mediators.
+
+**Correct Answer:** **True**
+
+---
+
+### Section 6: Exogenous Variables
+**Question:** Exogenous variables are:
+
+**Options:**
+- Internal variables
+- External independent variables
+- Measured only
+- Always dependent
+
+**Correct Answer:** **External independent variables**
+
+---
+
+### Section 7: Validity Definition
+**Question:** Validity refers to:
+
+**Options:**
+- Tool consistency
+- Measuring what it intends
+- Bias removal
+- Sample accuracy
+
+**Correct Answer:** **Measuring what it intends**
+
+---
+
+### Section 8: Research Question Identifies
+**Question:** A research question identifies the ____ of the study.
+
+**Options:**
+- Sample size
+- Data type
+- Purpose
+- Limitation
+
+**Correct Answer:** **Purpose**
+
+---
+
+### Section 9: Hypothesis Formulation Requirement
+**Question:** Hypothesis formulation requires:
+
+**Options:**
+- Random selection
+- Clear theoretical framework
+- Coding skills
+- None of the Mentioned
+
+**Correct Answer:** **Clear theoretical framework**
+
+---
+
+### Section 10: Data Collection Methods
+**Question:** Data collection methods include:
+
+**Options:**
+- Interviews
+- Questionnaires
+- Observations
+- All
+
+**Correct Answer:** **All**
+
+---
+
+### Section 11: Moderating Effect Analysis
+**Question:** A moderating effect is best tested using ____ analysis.
+
+**Options:**
+- Regression interaction
+- Cluster
+- ANOVA only
+- Pivot
+
+**Correct Answer:** **Regression interaction**
+
+---
+
+### Section 12: Good Hypotheses Characteristics
+**Question:** Good hypotheses are:
+
+**Options:**
+- Testable
+- Clear
+- Directional/Non-directional
+- Ambiguous
+
+**Correct Answer:** **Testable, Clear, and Directional/Non-directional** (All three checked)
+
+---
+
+### Section 13: Experimental Designs Classification
+**Question:** Experimental designs belong to:
+
+**Options:**
+- Exploratory research
+- Conclusive research
+- Qualitative research
+- Narrative research
+
+**Correct Answer:** **Conclusive research**
+
+---
+
+### Section 14: Sampling Designs
+**Question:** Sampling designs include:
+
+**Options:**
+- Probability sampling
+- Non-probability sampling
+- Random sampling
+- Economical sampling
+
+**Correct Answer:** **Probability sampling and Non-probability sampling** (Both checked)
+
+---
+
+### Section 15: Control Variables
+**Question:** STATE True/False: Control variables are used to reduce bias.
+
+**Correct Answer:** **True**
+
+---
+
+## Set 2 Questions and Answers
+
+### Section 16: Indirect Linkage Model
+**Question:** An indirect linkage model includes:
+
+**Options:**
+- Only direct effects
+- Mediating variables
+- No variables
+- Only moderators
+
+**Correct Answer:** **Mediating variables**
+
+---
+
+### Section 17: Endogenous Variables
+**Question:** Endogenous variables are:
+
+**Options:**
+- Independent variables
+- Dependent/affected variables
+- Confounding variables
+- Sampling errors
+
+**Correct Answer:** **Dependent/affected variables**
+
+---
+
+### Section 18: Theoretical Framework Components
+**Question:** Components of theoretical framework:
+
+**Options:**
+- Concepts
+- Relationships
+- Assumptions
+- Budget
+
+**Correct Answer:** **Concepts, Relationships, and Assumptions** (All three checked)
+
+---
+
+### Section 19: Confounding Variables
+**Question:** Confounding variables are:
+
+**Options:**
+- Unrelated variables
+- Hidden variables affecting results
+- Always moderators
+- Eliminated automatically
+
+**Correct Answer:** **Hidden variables affecting results**
+
+---
+
+### Section 20: Mediating Variable Function
+**Question:** A mediating variable ____ the relationship between two variables.
+
+**Options:**
+- Neglects
+- Explains
+- Removes
+- Hides
+
+**Correct Answer:** **Explains**
+
+---
+
+### Section 21: Moderating Variable Effect
+**Question:** Moderating variables ____ the strength of a relationship.
+
+**Options:**
+- Cause
+- Influence
+- Modify
+- Remove
+
+**Correct Answer:** **Modify**
+
+---
+
+### Section 22: Probability Sampling
+**Question:** STATE True/False: Probability sampling gives equal chance to all units.
+
+**Correct Answer:** **True**
+
+---
+
+### Section 23: Direct Linkage Model
+**Question:** A direct linkage model suggests:
+
+**Options:**
+- Direct effect between variables
+- Effect through mediator
+- Effect through moderator
+- No effect
+
+**Correct Answer:** **Direct effect between variables**
+
+---
+
+### Section 24: Construct Validity
+**Question:** STATE True/False: Construct validity evaluates how well variables represent concepts.
+
+**Correct Answer:** **True**
+
+---
+
+### Section 25: Descriptive Research Design
+**Question:** Descriptive research design aims to:
+
+**Options:**
+- Explore phenomena
+- Describe characteristics
+- Test cause-effect
+- Manipulate variables
+
+**Correct Answer:** **Describe characteristics**
+
+---
+
+## Summary Table: Key Research Concepts
+
+\begin{table}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Concept} & \textbf{Definition} \\
+\hline
+Reliability & Consistency of measurement instrument \\
+\hline
+Validity & Whether instrument measures what it intends to \\
+\hline
+Exogenous Variables & External independent variables in research \\
+\hline
+Endogenous Variables & Dependent/affected variables in research \\
+\hline
+Mediating Variables & Explain relationship between two variables \\
+\hline
+Moderating Variables & Modify strength of relationship \\
+\hline
+Confounding Variables & Hidden variables that affect results \\
+\hline
+Control Variables & Variables used to reduce bias \\
+\hline
+Hypothesis & Testable, clear prediction with theoretical basis \\
+\hline
+Cronbach's Alpha & Measures internal consistency reliability \\
+\hline
+\end{tabular}
+\caption{Key Research Methodology Concepts}
+\end{table}
+
+---
+
+## Study Tips for MSc CA Research Methodology
+
+**Key Areas to Focus:**
+
+1. **Variable Types** - Understand the differences between endogenous, exogenous, mediating, moderating, confounding, and control variables
+
+2. **Reliability vs Validity** - Reliability is consistency (measured by Cronbach's alpha for internal consistency); Validity is measuring what you intend to measure
+
+3. **Research Design Types** - Descriptive (characteristics), Conclusive/Experimental (cause-effect), Exploratory (phenomena)
+
+4. **Data Collection** - Interviews, Questionnaires, Observations (all are valid methods)
+
+5. **Sampling Methods** - Both Probability (equal chance) and Non-probability (purposive) are valid sampling designs
+
+6. **Hypothesis Requirements** - Must be testable, clear, with directional or non-directional statements based on clear theoretical framework
+
+7. **Statistical Analysis** - Regression interaction for moderating effects, appropriate for testing complex relationships
+
+---
+
+## Document Information
+
+**Assessment:** MSc CA Internal Assessment  
+**Program:** Master of Science in Computer Applications  
+**Batch:** July 2025 - Semester 1  
+**Subject:** Research Methodology  
+**Total Questions:** 25  
+**Format:** Multiple Choice with Single/Multiple Correct Answers and True/False Statements
+
+**Date Generated:** December 26, 2025  
+**Status:** Complete Assessment Bank
