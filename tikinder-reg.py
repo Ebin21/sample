@@ -120,7 +120,7 @@ def insert():
         sheet.cell(row=current_row + 1, column=7).value = address_field.get() 
   
         # save the file 
-        wb.save('C:\\Users\\Admin\\Desktop\\excel.xlsx') 
+        wb.save('C:\\Users\\Ebin\\OneDrive\\Desktop\\excel.xlsx') 
   
         # set focus on the name_field box 
         name_field.focus_set() 
