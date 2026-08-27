@@ -4,4 +4,4 @@ while True:
   if numr ==0:
     break
   total+=num
-print("The sum of the numbers: ",total)
+print("The sum of the numbers is: ",total)
