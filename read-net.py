@@ -33,3 +33,12 @@ FileContent = file1.read()
 print(FileContent)
 type(FileContent)
 file1.close()
+
+
+## A Better Way to Open a File
+with open(example1, "r") as file1:
+    FileContent = file1.read()
+    print(FileContent)
+    print(file1.closed)
+print(FileContent)
+
